@@ -135,3 +135,51 @@ footer{
 }
 .attribution { font-size: 11px; text-align: center; word-spacing: 2px; }
 .attribution a { color: whitesmoke; }
+
+/* responsive */
+
+@media screen and (max-width:320px){
+    body{
+        background-color: whitesmoke;
+    }
+    .container{
+        margin-top: 0;
+    }
+    /* header */
+    header{
+        width: 100%;
+        height: 350px;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    section{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        box-shadow: none;
+        height: 260px;
+    }
+    /* suscription */
+    .suscription{
+        height: 280px;
+        border-radius: 0;
+    }
+    /* why section  */
+    .why{
+        height: 260px;
+        border-radius: 0;
+    }
+    /* footer */
+    footer{
+        position: relative;
+        top: 300px;
+        margin: 5px;
+    }
+    .attribution{
+        font-size: 10px;
+        color:black;
+    }
+    .attribution a {
+        color: rgba(0,0,0,0.75);
+        font-size: 10px;
+    }
+}
