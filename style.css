@@ -140,6 +140,16 @@ footer{
 
 /* responsive */
 
+@media screen and (max-width:1024px){
+    header{
+        height: 240px;
+        width: 60%;
+    }
+    section{
+        width: 60%;
+    }
+}
+
 @media screen and (max-width:320px){
     body{
         background-color: whitesmoke;
