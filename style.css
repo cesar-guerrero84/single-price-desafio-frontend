@@ -150,6 +150,15 @@ footer{
     }
 }
 
+@media screen and (max-width:768px){
+    header{
+        width: 80%;
+    }
+    section{
+        width: 80%;
+    }
+}
+
 @media screen and (max-width:320px){
     body{
         background-color: whitesmoke;
