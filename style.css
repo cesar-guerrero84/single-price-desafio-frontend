@@ -112,7 +112,7 @@ section{
     align-content: center;
 }
 .suscription p{
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 25px;
 }
 /* why div */
@@ -150,6 +150,9 @@ footer{
     section{
         width: 60%;
     }
+    .suscription p{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:768px){
@@ -158,6 +161,9 @@ footer{
     }
     section{
         width: 80%;
+    }
+    .suscription p{
+        font-size: 15px;
     }
 }
 
